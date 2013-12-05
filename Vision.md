@@ -105,7 +105,7 @@ Finansiering kommer ske genom annonser från lokala företag, butiker och fören
   **B4.**   *Kompatibel med äldre webbläsare*
   
 * **C)**    *Domän*
-  **C1.**   *En enkel och tydlig adress, www.barnensuddevalla.se *
+  **C1.**   *En enkel och tydlig adress*
   **C2.**   *Stabilt webbhotell*
   **C3.**   *Email*
   **C4.**   *Stöd för PHP, ASP.NET och SQL-databas*
