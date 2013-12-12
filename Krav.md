@@ -12,6 +12,16 @@ mk222xa
 
 [Barnens Uddevalla](https://github.com/mk222xa/Uppgift-234/blob/master/Vision.md) är en webbportal som riktar sig mot barn och deras föräldrar. Tanken med sidan är att information om aktiviteter, events och lokala föreningar ska vara samlat och lätt att ta del av oavsett ålder eller datorvana. 
 
+## Aktörer
+
+* Besökare
+
+* Annonsörer
+
+* Administratör (Barnens Uddevalla)
+
+* Föreningar
+
 ##Användningsområden(User Cases)
 
 Följande användningsområden fokuserar på Barnens Uddevalla.
