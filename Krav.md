@@ -26,7 +26,7 @@ Kort sammanfattning: När en organisatör ordnar ett event som riktar sig mot ba
 
 ### UC-03: Lokala annonsörer vill nå ut till användare
 
-Kort sammanfattning: När lokala annonsörer vill nå ut till potentiella kunder så är en annons på Barnens Uddevalla ett bra alternativ. Beroende på vilken typ av vara eller tjänst som annonsen avser så placeras annonsen på lämpligt ställe på Barnens Uddevalla i samråd med administratör. En kostnad kommer att tas ut baserad på hur länge annonsen skall finnas och var på sidan den ligger.
+Kort sammanfattning: När lokala annonsörer vill nå ut till potentiella kunder så är en annons på Barnens Uddevalla ett bra alternativ. Beroende på vilken typ av vara eller tjänst som annonsen avser så placeras annonsen på lämpligt ställe på Barnens Uddevalla i samråd med administratör. En kostnad kommer att tas ut baserad på hur länge annonsen skall finnas och var på sidan den ligger. 
 
 ### UC-04: Google AdWords annonsering
 
@@ -104,3 +104,24 @@ _Besökande barn och föräldrar:_
 2. Kvarstår problemet kontaktas administratören.
 
 3. Administratör åtgärdar felet på lämpligt sätt
+
+### UC-06: Besökaren vill skriva ut information
+
+Kort sammanfattning: Det är viktigt att informationen på Barnens Uddevalla finns i ett bra utskriftsformat. Det ska vara möjligt att få upp varje enskilt event i ett separat utskriftsfönster där användaren kan skriva ut informationen på ett bra sätt. Föreningars information ska vara utskiftsvänligt, det ska vara möjligt att välja om du vill skriva ut med eventuella bilder eller bara text. 
+
+### UC-07: Sammankoppling med sociala medier
+
+Kort sammanfattning: Barnens Uddevalla kommer att finnas på Twitter, Facebook, Google+ och Instagram. Det är viktigt att administratören är aktiv och uppdaterar nyhetsflödet på dessa medier samtidigt som dessa uppdateringar länkas in på den egna hemsidan i ett nyhetsflöde där besökaren kan klicka på en nyhet och komma till det sociala media som är aktuellt. Uppdateringarna på dessa sociala medier måste vara aktuella men korta och en mer utförlig uppdatering ska finnas på Barnens Uddevallas hemsida för att locka dit besökare. Här är det arbete med respektive medies API som gäller, det ska finnas en "Gilla" knapp för varja medie på hemsidan. 
+
+### UC-08: Mobil anpassning av sidan
+
+Kort sammanfattning: Det är viktigt att sidan har en responsiv design då väldigt många surfar från mobil. Telefonnummer till olika events och föreningar ska vara införda på ett sådant sätt att besökaren som surfar på mobilen kan klicka på det telefonnummer som är listat för det som eftersöks och då få upp alternativet att ringa direkt från telefonen eller Skype i de fall där Skype är installerat på mobiltelefonen. En välskriven HTML5-kod får det här att fungera.
+
+### UC-09: En besökare vill tipsa vänner och bekanta
+
+Kort sammanfattning: När en besökare hittar något som är intressant t. ex. ett event som vore aktuellt att dela med sig av till vänner och bekanta så ska det finnas en ikon för att dela. Om besökaren trycker på ikonen för att dela så ska en "popup" dyka upp med alternativen för Facebook, Google+ eller direkt till kompisens email(här är det möjligt att skriva in flera emailadresser). 
+
+### UC-10: En aktör vill rapportera om ett fel på sidan eller i informationen
+
+Kort sammanfattning: På undersidan "Kontakta Barnens Uddevalla" ska ett kontaktformulär finnas med en dropdown lista över olika alternativ. Här kan den som vill kontakta markera vad det gäller och även skriva ett meddelande. När formuläret skickas så sorteras det efter vad ärendet gäller på servern och skickas sedan vidare till administratör för Barnens Uddevalla. En kopia på meddelandet kommer även att skickas till den som kontaktade Barnens Uddevalla. Vid förfrågningar kontaktar administratör den som kontaktade Barnens Uddevalla antingen via email eller telefon efter önskemål. Vid felanmälan så åtgärdas felet snarast möjligt, information uppdateras och buggar åtgärdas.
+
