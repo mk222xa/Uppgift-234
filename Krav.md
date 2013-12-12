@@ -22,7 +22,7 @@ mk222xa
 
 * Föreningar
 
-##Användningsområden(User Cases)
+##Användningsfall(Use Cases)
 
 Följande användningsområden fokuserar på Barnens Uddevalla.
 
