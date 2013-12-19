@@ -38,7 +38,7 @@ Kort sammanfattning: När lokala annonsörer vill nå ut till potentiella kunder
 
 Kort sammanfattning: Google AdWords kommer användas och placeringen är väldigt viktig då annonserna inte får ta fokus från själva innehållet eller på något sätt påverka navigationen. En väl strukturerad HTML5 och CSS kod är oerhört viktigt här! 
 
-### UC-05: Uppdatera information <a name="information"></a>
+### UC-05: Skapa konto och logga in <a name="information"></a>
 
 **Nivå:** Underfunktion
 
@@ -46,59 +46,46 @@ Kort sammanfattning: Google AdWords kommer användas och placeringen är väldig
 
 **Sekundär aktör:** Administratör för Barnens Uddevalla
 
-**Andra aktörer:** Besökande barn och föräldrar 
-
 **Intressenter och deras områden:**
 
-_Förening:_
-Föreningen vill nå ut till nya kunder och sprida information om deras verksamhet.
+_Användaren:_
+
+Användaren vill skapa ett konto på sidan för att kunna logga in och uppdatera information
 
 _Administratör för Barnens Uddevalla:_
-Administratören kontrollerar föreningens information och hjälper till med att skapa ett konto åt föreningen.
-
-_Besökande barn och föräldrar:_
-Denna aktör är målgruppen som ska surfa in på sidan och ta del av information och reklam på ett tydligt och enkelt sätt.
+Administratören kontrollerar användarens information och hjälper till med att skapa ett konto åt föreningen.
 
 **Scenario**
 
- _Användare:_
+***Systemet frågar efter information***
+ 
 
-1. Användare kontaktar Barnens Uddevalla för att skapa ett konto.
+1. Användaren går till sidan för att skapa ett konto.
 
-2. Systemet för in information och skapar ett konto åt föreningen.
+2. Systemet efterfrågar information.
 
-_Administratör för Barnens Uddevalla:_
+3. Användaren fyller i information
 
-1. Systemet får en begäran om att skapa ett nytt konto.
+4. Administratören kontrollerar information
 
-2. Administratören kontrollerar samt godkänner eller nekar.
+5. Administratören godkänner eller nekar skapandet av konto
+
+6. Användaren loggar in
 
 
-**Tillägg:**
+**Underordnad funktion:**
 
-***a. Fel vid ifyllande av kontaktformulär***
+***a. Uppdatering av information
 
-1. Felmeddelande visas
+1. Användaren loggar in
 
-2. En automatisk felrapport sänds till administratör
+2. Systemet kontrollerar inloggningen
 
-3. Administratör administratör åtgärdar felet
+3. Användaren matar in ny information
 
-4. Användaren fyller i informationen på nytt
+4. Systemet kontrollerar informationen
 
-***b. Sökruta fungerar ej***
-
-1. Felmeddelande visas
-
-2. En automatisk felrapport sänds till administratör
-
-3. Administratör åtgärdar fel
-
-***c. Inloggning fungerar ej för användare***
-
-1. Lösenordsåterställning via hemsida
-
-2. Systemet skickar nytt lösenord via email till användare
+5. Informationen på sidan uppdateras
 
 
 ### UC-06: Utskrift av information
