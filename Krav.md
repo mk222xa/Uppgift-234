@@ -61,7 +61,7 @@ Denna aktör är målgruppen som ska surfa in på sidan och ta del av informatio
 
 **Scenario**
 
- _Förening:_
+ _Användare:_
 
 1. Användare kontaktar Barnens Uddevalla för att skapa ett konto.
 
@@ -73,15 +73,6 @@ _Administratör för Barnens Uddevalla:_
 
 2. Administratören kontrollerar samt godkänner eller nekar.
 
-_Besökande barn och föräldrar:_
-
-1. Användaren söker efter viss information i en sökruta
-
-2. Systemet presenterar information (om tillgängligt) som länk(ar)
-
-3. Användaren klickar på valfri presenterad länk
-
-4. Användaren dirigeras till rätt sida
 
 **Tillägg:**
 
