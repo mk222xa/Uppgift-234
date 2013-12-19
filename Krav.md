@@ -38,7 +38,7 @@ Kort sammanfattning: När lokala annonsörer vill nå ut till potentiella kunder
 
 Kort sammanfattning: Google AdWords kommer användas och placeringen är väldigt viktig då annonserna inte får ta fokus från själva innehållet eller på något sätt påverka navigationen. En väl strukturerad HTML5 och CSS kod är oerhört viktigt här! 
 
-### UC-05: Sprida lokal information
+### UC-05: Uppdatera information <a name="information"></a>
 
 **Nivå:** Underfunktion
 
@@ -103,7 +103,7 @@ _Besökande barn och föräldrar:_
 
 3. Administratör åtgärdar fel
 
-***c. Inloggning och/eller uppdatering av information fungerar ej för förening***
+***c. Inloggning fungerar ej för användare***
 
 1. Lösenordsåterställning via hemsida
 
