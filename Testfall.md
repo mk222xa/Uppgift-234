@@ -153,3 +153,8 @@ _Besökande barn och föräldrar:_
 3. Gå till sidan för userinfo
 4. Uppdatera Namn:T3st U53r, Tel: Nollfem22-73905, Email:Notavalidemail
 5. Felaktigt formatterad information visas genom att rutorna lyser rött
+
+###TF4.3 Alternativt scenario 2: Servern fungerar inte
+1. Gå till inloggningssidan
+2. Användarnamn:userupdate, Lösenord:userupdate
+3. Felmeddelande visas
