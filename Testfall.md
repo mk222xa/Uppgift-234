@@ -158,3 +158,19 @@ _Besökande barn och föräldrar:_
 1. Gå till inloggningssidan
 2. Användarnamn:userupdate, Lösenord:userupdate
 3. Felmeddelande visas
+
+###TF5.1 Huvudscenario: Användare vill skapa ett konto
+1. Gå till inloggningssidan
+2. Välj "Skapa nytt konto"
+3. Fyll i Användarnamn:newuser, Lösenord:newuser, Förening:Testförening
+4. Administratör kontaktas av systemet och godkänner/nekar
+
+###TF5.2 Alternativt scenario 1:Ogiltigt information vid registrering
+1. Gå till inloggningssidan
+2. Välj "Skapa nytt konto"
+3. Fyll i Användarnamn:failed&/user, Lösenord:12, Förening:(blankt)
+4. Felmeddelande visas och felaktigt ifyllda fält rödmarkeras
+###TF5.3 Alternativt scenario 2: Systemet är ur funktion
+1. Gå till inloggningssidan
+2. Välj "Skapa nytt konto"
+4. Felmeddelande visas 
