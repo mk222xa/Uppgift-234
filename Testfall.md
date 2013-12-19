@@ -104,74 +104,38 @@ _Besökande barn och föräldrar:_
 4. Inloggningen misslyckas och ett felmeddelande presenteras
 5. Inloggningsruta presenteras med kvarstående felmeddelande samt länk till lösenordsåterställning
 
-###TF2.1 Huvudscenario: Sökning efter information på sidan
-1. Gå till startsidan
-2. Sökruta presenteras
-3. Sökterm: fotboll för flickor 04
-4. Länk till IFK Uddevallas information
-
-###TF2.2 Alternativt scenario 1: Ingen information finns tillgänglig
-1. Gå till startsidan
-2. Sökruta presenteras
-3. Sökterm: Resor till jupiter
-4. Texten "Din sökning gav inget resultat, vill du söka utanför sidan?" presenteras
-
-###TF2.3 Alternativt scenario 2: Sökmotorn fungerar ej
-1. Gå till startsidan
-2. Sökruta presenteras
-3. Sökterm: failsearchengingetest
-4. Felmeddelande visas
-
-###TF3.1 Huvudscenario: Ifyllnad av kontaktformulär
-1. Gå till sidan för "Kontakta oss"
-2. Kontaktformulär presenteras
-3. Namn:Test User, Email: testuser@barnensuddevalla.se, Ärende: Test av formulär, Meddelande: Testar kontaktformuläret
-4. Formuläret skickas och ett meddelande visas
-
-###TF3.2 Alternativt scenario 1: Felaktigt format på email
-1. Gå till sidan för "Kontakta oss"
-2. Kontaktformulär presenteras
-3. Namn:Test User, Email:novalidemail, Ärende: Test av email, Meddelande: Testar validering av email
-4. Rutan för email rödmarkeras och felmeddelande visas ihop med ett korrekt format av en emailadress
-
-###TF3.3 Alternativt scenario 2: Kontaktformuläret är skickar inte information
-1. Gå till sidan för "Kontakta oss"
-2. Kontaktformulära presenteras
-3. Namn:Test User, Email: testuser@barnensuddevalla.se, Ärende:dontsendinfo, Meddelande: Kontaktformulär ur funktion
-4. Felmeddelande visas
-
-###TF4.1 Huvudscenario: User vill uppdatera information
+###TF2.1 Huvudscenario: User vill uppdatera information
 1. Gå till inloggningssidan
 2. Användarnamn:userupdate, Lösenord:userupdate
 3. Gå till sidan för userinfo
 4. Uppdatera Namn:Test User, Tel: 0522-73905, Email:testuser@barnensuddevalla.se
 5. Informationen uppdateras och ett meddelande visas
 
-###TF4.2 Alternativt scenario 1: Felaktigt format på information
+###TF2.2 Alternativt scenario 1: Felaktigt format på information
 1. Gå till inloggningssidan
 2. Användarnamn:userupdate, Lösenord:userupdate
 3. Gå till sidan för userinfo
 4. Uppdatera Namn:T3st U53r, Tel: Nollfem22-73905, Email:Notavalidemail
 5. Felaktigt formatterad information visas genom att rutorna lyser rött
 
-###TF4.3 Alternativt scenario 2: Servern fungerar inte
+###TF2.3 Alternativt scenario 2: Servern fungerar inte
 1. Gå till inloggningssidan
 2. Användarnamn:userupdate, Lösenord:userupdate
 3. Felmeddelande visas
 
-###TF5.1 Huvudscenario: Användare vill skapa ett konto
+###TF3.1 Huvudscenario: Användare vill skapa ett konto
 1. Gå till inloggningssidan
 2. Välj "Skapa nytt konto"
 3. Fyll i Användarnamn:newuser, Lösenord:newuser, Förening:Testförening
 4. Administratör kontaktas av systemet och godkänner/nekar
 
-###TF5.2 Alternativt scenario 1: Ogiltigt information vid registrering
+###TF3.2 Alternativt scenario 1: Ogiltigt information vid registrering
 1. Gå till inloggningssidan
 2. Välj "Skapa nytt konto"
 3. Fyll i Användarnamn:failed&/user, Lösenord:12, Förening:(blankt)
 4. Felmeddelande visas och felaktigt ifyllda fält rödmarkeras
 
-###TF5.3 Alternativt scenario 2: Systemet är ur funktion
+###TF3.3 Alternativt scenario 2: Systemet är ur funktion
 1. Gå till inloggningssidan
 2. Välj "Skapa nytt konto"
 4. Felmeddelande visas 
