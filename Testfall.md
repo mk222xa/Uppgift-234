@@ -111,6 +111,10 @@ _Besökande barn och föräldrar:_
 4. Uppdatera Namn:Test User, Tel: 0522-73905, Email:testuser@barnensuddevalla.se
 5. Informationen uppdateras och ett meddelande visas
 
+### TF2.1 Efterkrav
+
+Systemet skickar ett email till den nya emailadressen. Administratören måste även kontrollera de nya uppgifterna så att dessa stämmer samt ringa till det nya telefonnummret och se att det är en giltig förening.
+
 ###TF2.2 Alternativt scenario 1: Felaktigt format på information
 1. Gå till inloggningssidan
 2. Användarnamn:userupdate, Lösenord:userupdate
